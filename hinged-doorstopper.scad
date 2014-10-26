@@ -52,7 +52,7 @@ module base ()
 
         place_screwhole ()
         translate ([0, 0, -base_dimensions[1] / 2 - epsilon * 2])
-        nutHole (size=screw_d, tolerance=0.3);
+        nutHole (size=screw_d, tolerance=0.1);
     }
 }
 
