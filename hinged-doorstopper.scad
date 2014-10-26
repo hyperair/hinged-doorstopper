@@ -92,5 +92,6 @@ if (mode == "assembly") {
     base ();
 
     translate ([0, base_dimensions[1] + 2, arm_thickness / 2])
+    rotate (90, X)
     arm ();
 }
